@@ -1,0 +1,23 @@
+
+
+# Main dashboard framework
+streamlit==1.35.0
+
+
+# AI and Computer Vision
+ultralytics==8.1.27
+opencv-python-headless==4.9.0.80
+torch>=2.2.1
+torchvision>=0.17.1
+numpy>=1.26.4
+
+# Data Handling & Visualization
+pandas==2.2.1
+plotly==5.18.0
+
+# Backend and API Integration
+firebase-admin==6.5.0
+twilio==8.9.0
+
+# Environment Variable Management
+python-dotenv==1.0.1
