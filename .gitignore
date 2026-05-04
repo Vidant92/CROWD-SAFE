@@ -1,6 +1,46 @@
+# =============================
+# PRIVATE / SECRET FILES
+# =============================
+.env
+firebase-credentials.json
+*.json.key
+secrets.toml
+
+# =============================
+# PYTHON CACHE (not needed)
+# =============================
 __pycache__/
 *.py[cod]
 *$py.class
-.env
-.venv
+*.pyo
+*.pyd
+.Python
+
+# =============================
+# VIRTUAL ENVIRONMENT (not needed - use requirements.txt)
+# =============================
 venv/
+.venv/
+env/
+ENV/
+
+# =============================
+# LARGE MEDIA / MODEL FILES
+# =============================
+# Uncomment below if you want to exclude these large files too
+# local_train.mp4
+# yolov8n.pt
+
+# =============================
+# LOGS & OUTPUT
+# =============================
+output.txt
+*.log
+
+# =============================
+# OS / EDITOR FILES
+# =============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
