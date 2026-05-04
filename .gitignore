@@ -1,46 +1,45 @@
-# =============================
-# PRIVATE / SECRET FILES
-# =============================
+# Environments
 .env
-firebase-credentials.json
-*.json.key
-secrets.toml
+.venv/
+venv/
+env/
 
-# =============================
-# PYTHON CACHE (not needed)
-# =============================
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyo
-*.pyd
+*.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# =============================
-# VIRTUAL ENVIRONMENT (not needed - use requirements.txt)
-# =============================
-venv/
-.venv/
-env/
-ENV/
-
-# =============================
-# LARGE MEDIA / MODEL FILES
-# =============================
-# Uncomment below if you want to exclude these large files too
-# local_train.mp4
-# yolov8n.pt
-
-# =============================
-# LOGS & OUTPUT
-# =============================
-output.txt
+# Logs
 *.log
+pip_out.log
+pip_out_utf8.log
 
-# =============================
-# OS / EDITOR FILES
-# =============================
-.DS_Store
-Thumbs.db
+# Video / Media / Weights
+*.mp4
+*.pt
+!yolov8n.pt
+
+# IDE / OS
 .idea/
 .vscode/
+.DS_Store
+Thumbs.db
