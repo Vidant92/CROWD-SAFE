@@ -164,7 +164,7 @@ class IoTSensorSimulator:
             print(f"🏢 Current: {self.current_count} people | Status: {status} | Time: {datetime.now().strftime('%H:%M:%S')}")
             
             # Wait before next update (simulate real sensor frequency)
-            time.sleep(random.uniform(2, 8))  # 2-8 seconds between updates
+            time.sleep(random.uniform(2, 8))  # 2-8 seconds between the updates
         
         print("🛑 IoT simulation stopped")
     
