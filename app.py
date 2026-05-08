@@ -391,7 +391,7 @@ if start_button:
             else:
                 st.success("✅ **Operations Normal.** Predictive algorithms show stable human flow.")
         
-        # Firebase Write
+        # Firebase Write  // save for later
         if time.time() - last_fb_update_time > 3 and firebase_initialized:
             try:
                 db.reference('realtime_metrics').set({
